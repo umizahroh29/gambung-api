@@ -1,0 +1,580 @@
+/**
+*
+* You can write your CSS code here, DO NOT touch the default JavaScript file
+* because it will make it harder for you to update.
+*
+*/
+
+/*# sourceMappingURL=custom.css.map */
+
+body{
+	font-family: 'Roboto';
+	overflow-x: hidden;
+}
+
+nav{
+	background-color: white !important;
+	padding: 10px 100px !important;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	z-index: 20500 !important;
+}
+
+nav a{
+	color: #654E47 !important;
+	font-size: 20px !important;
+	font-weight: bold;
+}
+
+.btn:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.btn-success{
+	background-color: #388A6B;
+}
+
+.btn-success:hover{
+	background-color: #29664f;
+}
+
+.main-content {
+	width: 100%;
+	position: relative;
+}
+
+.main-footer{
+	padding: 30px 100px;
+	min-height: 200px;
+	width: 100%;
+	position: relative;
+	background-image: url('../img/background/footer.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white !important;
+}
+
+.footer-client .col-4{
+	padding-left: 10%;
+}
+
+.footer-client h2{
+	font-size: 20px;
+}
+
+.social a{
+	margin: 0px 20px;
+}
+
+.search button{
+	color: #654E47;
+}
+
+.search button:focus{
+	box-shadow: none;
+}
+
+.search input{
+	border: 0px;
+	border-bottom: 2px solid white;
+	border-radius: 0px;
+}
+
+.search input:focus{
+	border-bottom: 2px solid #654E47;
+	box-shadow: none;
+	border-radius: 0px;
+	transition: 0.5s;
+}
+
+.header{
+	height: 70vh;
+	background-color: #FBF7F3;
+	background-image: url('../img/background/landing.svg');
+	background-repeat: no-repeat;
+}
+
+.header h1{
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 52px;
+}
+
+.header p{
+	font-weight: 300;
+	line-height: 19px;
+	font-size: 16px;
+	color: #3B3B3B;
+}
+
+.carousel-item{
+	margin: 20vh 20vh;
+}
+
+.produk-landing{
+	background-color: #FBF7F3;
+}
+
+.divider{
+	width: 10%;
+	height: 5px;
+	background-color: #388A6B;
+}
+
+.image-product{
+	margin: 50px 30px;
+}
+
+.image-product img{
+	width: 80%;
+	height: 400px;
+	margin: 20px 10%;
+}
+
+.image-product .title{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #3B3B3B;
+}
+
+.image-product .price{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #388A6B;
+}
+
+.overflow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	padding-top: 450px;
+	width: 68%;
+	margin: 20px 16%;
+}
+
+.overflow .detail{
+	background-color: #654E47;
+	height: 85px;
+}
+
+.overflow a{
+	margin: 20px;
+	width: 150px;
+}
+
+.overflow:hover,.produk .overflow:hover{
+	opacity: 1;
+	transition: 0.2s;
+}
+
+.produk{
+	margin: 100px 0px;
+}
+
+.produk img{
+	height: 300px;
+}
+
+.produk .kategori{
+	margin: 20px 100px 0px 100px;
+	color: #654E47;
+}
+
+.produk .image-product{
+	margin-top: 0px;
+}
+
+.produk .overflow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	padding-top: 301px;
+	width: 62%;
+	margin: 20px 19%;
+}
+
+.page{
+	background-color: #FBF7F3;
+	padding-bottom: 100px;
+}
+
+.page-title{
+	margin: 50px 0px 0px 100px;
+	color: #654E47;
+}
+
+.container-detail-produk{
+	background-color: white;
+	margin: 50px 100px;
+	padding: 50px;
+}
+
+.main-image{
+	width: 100%;
+	height: 500px;
+}
+
+.side-image{
+	overflow-x: hidden;
+	width: 100%;
+	height: 150px;
+}
+
+.detail-produk-content .row{
+	margin: 10px 0px;
+	padding: 5px 0px;
+}
+
+.detail-produk-content h2{
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 37px;
+}
+
+.detail-produk-content p{
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.08em;
+}
+
+.detail-produk-content h1{
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 47px;
+	color: #388A6B;
+}
+
+.detail-produk-content button{
+	width: 100px;
+}
+
+.detail-produk-content .link-collapse{
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: 0.08em;
+	color: #654E47;
+	margin-right: 20px;
+}
+
+.detail-produk-content .text-divided{
+	margin-bottom: 25px;
+}
+
+.detail-produk-content .collapse{
+	border: none;
+	width: 100% !important;
+}
+
+.detail-produk-content .input-group a{
+	color: white;
+	border-radius: 0px;
+}
+
+.container-cart{
+	padding-bottom: 50px;
+}
+
+.section-cart{
+	background-color: white;
+	margin: 50px 10px 10px 100px;
+	padding: 30px;
+}
+
+.section-cart h2{
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 33px;
+	letter-spacing: 0.08em;
+	color: #3B3B3B;
+}
+
+.section-cart h1{
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 42px;
+	letter-spacing: 0.08em;
+	color: #388A6B;
+}
+
+.section-cart p{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.04em;
+	color: #3B3B3B;
+}
+
+.section-cart input[type='checkbox'], .section-cart input[type='checkbox']:focus{
+	height: 30px;
+	background-color: white;
+	box-shadow: none;
+}
+
+.section-cart a{
+	color: white;
+}
+
+.section-cart input[name='pesan'], .section-cart input[name='pesan']:hover{
+	margin: 5px 0px;
+	border: none;
+	border-radius: 0px;
+	border-bottom: 2px solid black;
+	box-shadow: none;
+}
+
+.section-harga{
+	background-color: white;
+	margin: 50px 100px 10px 10px;
+	padding: 30px;
+}
+
+.cart-harga .harga{
+	margin: 50px 0px;
+}
+
+.cart-harga h1{
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 42px;
+	letter-spacing: 0.04em;
+	color: #D93E3E;
+}
+
+.checkout-container{
+	margin: 50px 100px 0px 100px;
+	background-color: white;
+	padding: 30px 180px;
+}
+
+.bulat.active{
+	background-color: #388A6B !important;
+	border: 0px !important;
+	color: white;
+}
+
+.wizard{
+	padding: 20px;
+}
+
+.wizard .bulat{
+	height: 75px !important;
+	border-radius: 100% !important;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.wizard h1{
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 33px;
+	letter-spacing: 0.08em;
+	margin: 20px 0px;
+}
+
+.form-group{
+	margin: 10px 0px 30px 0px;
+}
+
+.form-control:focus{
+	box-shadow: none;
+	border-color: #388A6B;
+}
+
+.checkout-container .detail{
+	padding-left: 50px;
+}
+
+.checkout-container .selectric-items li.highlighted {
+	background: #388A6B;
+	color: white;
+}
+
+.checkout-container .selectric {
+	margin: 50px 0px;
+}
+
+.rincian-harga{
+	margin: 0px 20px;
+}
+
+.waktu{
+	padding: 5%;
+	border: 1px solid black;
+	margin: 5% 20%;
+}
+
+.container-transaksi{
+	margin: 50px 100px 0px 100px;
+	background-color: white;
+	padding: 30px;
+}
+
+.container-transaksi .text-divided{
+	margin-bottom: 25px;
+}
+
+.container-transaksi a{
+	text-decoration: none;
+	color: black;
+}
+
+.container-transaksi .store .btn{
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+.container-transaksi p{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container-transaksi form{
+	margin-bottom: 5px;
+}
+
+.trans{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.col-trans{
+	border-left: 1px solid black;
+}
+
+.header-page{
+	padding-top: 100px;
+	margin: 0px 100px 50px 100px;
+	height: 300px;
+}
+
+.image-header{
+	height: 300px;
+}
+
+.ket-header{
+	background-color: white;
+	height: 100%;
+	padding: 20px;
+}
+
+.ket-header h3{
+	margin-top: 10px;
+}
+
+.ket-header p{
+	margin-bottom: 5px;
+	font-size: 10px;
+}
+
+.ket-header h4{
+	font-size: 15px;
+	margin-bottom: 5px
+}
+
+.button-toko a{
+	font-size: 10px;
+}
+
+.ket-header .profile{
+	position: absolute;
+	margin-top: -100px;
+	margin-left: 30%;
+	background-color: white;
+	border-radius: 100%;
+}
+
+.main-toko .sidebar{
+	background-color: white;
+	margin-top: 50px;
+	padding: 20px;
+	height: 100%;
+}
+
+.main-toko .product{
+	height: 100%;
+	margin-top: 50px;
+	padding: 0px 50px 0px 50px;
+}
+
+.product .image-product{
+	margin-top: 0px;
+}
+
+.product img{
+	height: 200px;
+}
+
+.product .overflow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	padding-top: 200px;
+	width: 60%;
+	margin: 20px 20%;
+}
+
+
+.product .overflow .detail{
+	background-color: #654E47;
+}
+
+.product .overflow a{
+	margin: 20px;
+	width: 150px;
+}
+
+.product .overflow:hover{
+	opacity: 1;
+	transition: 0.2s;
+}
+
+#timer {
+	margin: auto;
+}
+
+.dropdown-item:focus{
+	background-color: #388A6B !important;
+	color: white !important;
+}
+
+.nav-pills .active{
+	background-color: #388A6B !important;
+	color: white !important;
+}
+
+.notif{
+	font-size:15px !important;
+}
+
+.notif p{
+	font-size:11px !important;
+}
+
+.infonotif {
+	position: absolute;
+	font-size: 5px;
+	right: 28px;
+	min-width: 10px;
+	min-height: 10px;
+	border-radius: 100%;
+	background-color: #388A6B !important;
+	color: #388A6B;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+	line-height: 0px !important;
+}
